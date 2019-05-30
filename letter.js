@@ -14,3 +14,18 @@ var Letter = function(letter) {
     this.isGuessed = (this.character === ' ' || (/[.']/.test(this.character))) ? true : false;
 };
 
+Letter.prototype.toString =  function() {
+    return (this.isGuessed) ? this.character : this.placeholder;
+};
+
+Letter.prototype.guessLetter = function(guess) {
+    guess = guess.toUpperCase();
+
+    if (this.character === guess) {
+        this.isGuessed = true;
+        console.log("correct guess of " + guess);
+        return true;
+    }
+
+    return false;
+};
