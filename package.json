@@ -19,6 +19,7 @@
   "homepage": "https://github.com/vsdinger/constructor_word_guess#readme",
   "dependencies": {
     "inquirer": "^6.3.1",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "requirer": "0.0.4"
   }
 }
