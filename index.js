@@ -14,11 +14,8 @@ var playGame = function() {
 
     function displayWord (g) {
         // console.log(g.letters);
-
-        //using prototype with toString()
-        console.log(g + '');
     }
-
+    
     // get the random word
     gameWord.selectRandomWord();
     console.log("\n********** NEW GAME **********");
