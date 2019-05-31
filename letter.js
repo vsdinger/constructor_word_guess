@@ -29,3 +29,5 @@ Letter.prototype.guessLetter = function(guess) {
 
     return false;
 };
+
+module.exports = Letter;
